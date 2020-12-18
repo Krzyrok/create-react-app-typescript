@@ -158,7 +158,7 @@ module.exports = {
           },
           {
             test: /\.(js|jsx|mjs)$/,
-            // include: paths.appSrc,
+            include: paths.appSrc,
             loader: require.resolve('babel-loader'),
             options: {
               // @remove-on-eject-begin
